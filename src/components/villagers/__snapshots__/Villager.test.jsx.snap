@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Villager component matches a snapshot 1`] = `
+<DocumentFragment>
+  <figure>
+    <p>
+      Gunther
+    </p>
+    <a
+      href="/5"
+    >
+      <img
+        alt="Gunther"
+        src="http://image.com"
+      />
+    </a>
+    <figcaption>
+      <p>
+        hello
+      </p>
+    </figcaption>
+  </figure>
+</DocumentFragment>
+`;

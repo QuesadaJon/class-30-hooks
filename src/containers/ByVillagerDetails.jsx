@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { findDetailsByVillager } from '../services/animalCrossingApi';
+import styles from './VillagerDetails.css';
 
 export default function ByVillagerDetails() {
   const [villager, setVillager] = useState({});
@@ -14,7 +15,7 @@ export default function ByVillagerDetails() {
   const { name, image, quote, personality, species, birthday } = villager;
 
   return (
-    <div>
+    <div className={styles.VillagerDetails}>
       <h1>{name}</h1>
       <img src={image}/>
       <figcaption>

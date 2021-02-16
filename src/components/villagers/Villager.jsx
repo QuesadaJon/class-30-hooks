@@ -1,8 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Villager.css';
 
 const Villager = ({ quote, name, image }) => (
-  <figure>
+  <figure className={styles.Villager}>
     <p>{name}</p>
     <img src={image} alt={name} />
     <figcaption>

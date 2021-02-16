@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 import VillagerList from './VillagerList';
 
 const villagers = [
@@ -25,10 +26,11 @@ const villagers = [
 
 describe('VillagerList component', () => {
   it('matches a snapshot', () => {
-    const { asFragment } = render(<
-      VillagerList
-      villagers={villagers}
-    />);
+    const { asFragment } = render(
+      <MemoryRouter>
+        <VillagerList villagers={villagers} />
+      </MemoryRouter>
+    );
 
     expect(asFragment()).toMatchSnapshot();
   });

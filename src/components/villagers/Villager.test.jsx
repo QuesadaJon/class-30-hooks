@@ -6,7 +6,6 @@ describe('Villager component', () => {
   it('matches a snapshot', () => {
     const { asFragment } = render(<Villager
       name="Gunther"
-      _id="5"
       image="http://image.com"
       quote="hello"
     />);

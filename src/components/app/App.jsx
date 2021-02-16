@@ -11,8 +11,8 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/:id" component={ByVillagerDetails} />
-        <Route path="/" component={AllVillagers} />
+        <Route path="/details/:id" exact component={ByVillagerDetails} />
+        <Route path="/" exact component={AllVillagers} />
       </Switch>
     </Router>
   );

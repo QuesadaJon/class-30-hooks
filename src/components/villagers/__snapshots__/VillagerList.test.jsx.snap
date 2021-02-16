@@ -6,64 +6,64 @@ exports[`VillagerList component matches a snapshot 1`] = `
     data-testid="villagers"
   >
     <li>
-      <figure>
-        <p>
-          name
-        </p>
-        <a
-          href="/1"
-        >
+      <a
+        href="/details/1"
+      >
+        <figure>
+          <p>
+            name
+          </p>
           <img
             alt="name"
             src="https://image.com"
           />
-        </a>
-        <figcaption>
-          <p>
-            quote
-          </p>
-        </figcaption>
-      </figure>
+          <figcaption>
+            <p>
+              quote
+            </p>
+          </figcaption>
+        </figure>
+      </a>
     </li>
     <li>
-      <figure>
-        <p>
-          name
-        </p>
-        <a
-          href="/3"
-        >
+      <a
+        href="/details/3"
+      >
+        <figure>
+          <p>
+            name
+          </p>
           <img
             alt="name"
             src="https://image.com"
           />
-        </a>
-        <figcaption>
-          <p>
-            quote
-          </p>
-        </figcaption>
-      </figure>
+          <figcaption>
+            <p>
+              quote
+            </p>
+          </figcaption>
+        </figure>
+      </a>
     </li>
     <li>
-      <figure>
-        <p>
-          name
-        </p>
-        <a
-          href="/2"
-        >
+      <a
+        href="/details/2"
+      >
+        <figure>
+          <p>
+            name
+          </p>
           <img
             alt="name"
             src="https://image.com"
           />
-        </a>
-        <figcaption>
-          <p>
-            quote
-          </p>
-        </figcaption>
-      </figure>
+          <figcaption>
+            <p>
+              quote
+            </p>
+          </figcaption>
+        </figure>
+      </a>
     </li>
   </ul>
 </DocumentFragment>

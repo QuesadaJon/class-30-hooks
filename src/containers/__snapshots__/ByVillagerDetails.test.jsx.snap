@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ByVillagerDetails component matches a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <h1 />
+    <img />
+    <figcaption>
+      <p />
+      <p />
+      <p />
+      <p />
+    </figcaption>
+    <a
+      href="/"
+    >
+      List Page
+    </a>
+  </div>
+</DocumentFragment>
+`;

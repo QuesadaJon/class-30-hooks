@@ -1,15 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Link, BrowserRouter } from 'react-router-dom';
 
-const Villager = ({ _id, quote, name, image }) => (
+const Villager = ({ quote, name, image }) => (
   <figure>
     <p>{name}</p>
-    <BrowserRouter>
-      <Link to={`/${_id}`}>
-        <img src={image} alt={name} />
-      </Link>
-    </BrowserRouter>
+    <img src={image} alt={name} />
     <figcaption>
       <p>{quote}</p>
     </figcaption>
@@ -17,7 +12,6 @@ const Villager = ({ _id, quote, name, image }) => (
 );
 
 Villager.propTypes = {
-  _id: PropTypes.string.isRequired,
   quote: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,

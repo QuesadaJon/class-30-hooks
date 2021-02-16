@@ -6,14 +6,10 @@ exports[`Villager component matches a snapshot 1`] = `
     <p>
       Gunther
     </p>
-    <a
-      href="/5"
-    >
-      <img
-        alt="Gunther"
-        src="http://image.com"
-      />
-    </a>
+    <img
+      alt="Gunther"
+      src="http://image.com"
+    />
     <figcaption>
       <p>
         hello
